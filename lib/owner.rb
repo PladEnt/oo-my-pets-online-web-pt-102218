@@ -4,6 +4,7 @@ class Owner
   attr_writer
   @@all=[]
   
-  initialize
-  @all << self
+  def initialize
+    @all << self
+  end
 end
