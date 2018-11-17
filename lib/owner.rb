@@ -18,6 +18,6 @@ class Owner
   end
   
   def self.count
-    @@all.count.uniq
+    @@all.count.
   end
 end
