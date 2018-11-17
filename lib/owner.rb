@@ -10,7 +10,7 @@ class Owner
   end
   
   def self.all
-    @@all
+    ALL
   end
   
   def self.reset_all
@@ -18,6 +18,6 @@ class Owner
   end
   
   def self.count
-    @@all.size
+    ALL.size
   end
 end
